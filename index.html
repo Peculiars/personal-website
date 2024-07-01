@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- External css -->
+    <link rel="stylesheet" href="styles.css">
+    <title>My personal website</title>
+</head>
+<body>
+    <!-- HEADER START -->
+    <header>
+        <h1>My Tech Goals for the Next 2 Years</h1>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN CONTENT START -->
+    <main>
+        <section id="profile">
+            <div class="image">
+                <img src="/assets/peculiars.jpeg" width="200px" height="300px" alt="my slack display picture" data-testid="slackProfilePicture"/>
+            </div>
+            <div class="info">
+                <div class="text">
+                    <p>In the next two years, my goal as a frontend developer is to deepen my knowledge in React and Nextjs, also am aiming to become one of the best frontend developers in Africa. My plan is to join developers community where we can share ideas, learn fro one another and possibly share new insight on LinkedIn as a way to learn and grow in public.</p>
+                </div>
+                <div class="links">
+                    <a href="http://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+                    <a href="http://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
+                    <a href="http://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a>
+                </div>
+                <div class="data">
+                    <h2>My Info</h2>
+                    <p data-testid="slackDisplayName">Slack Name: Peculiars</p>
+                    <p data-testid="slackEmail">Slack Email: olaitandamilare230@gmail.com</p>
+                    <p>Current Time (UTC): <span data-testid="currentTimeUTC"></span></p>
+                    <p>Current Day: <span data-testid="currentDay"></span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
